@@ -1,9 +1,5 @@
 # Git hooks with Husky, Lint-Staged và CommitLint
 
-Ở trên ta lấy ra commit message của cái commit gần nhất (tính tới thời điểm ta vừa gõ xong `git commit` nếu có)
-
-Tiếp đó ở root project ta tạo file `.commitlintrc.js` với nội dung như sau:
-
 ## 1. Công nghệ sử dụng:
 
 - **[Prettier](https://github.com/prettier/prettier):** là code formatter
