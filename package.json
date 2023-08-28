@@ -6,8 +6,8 @@
   "author": "Đặng Minh Đức <ducware@gmail.com>",
   "scripts": {
     "postinstall": "husky install",
-    "format": "prettier --write \"./**/*.js\" --ignore-path .gitignore",
     "start": "node index.js",
+    "format": "prettier --write \"./**/*.js\" --ignore-path .gitignore",
     "lint": "eslint \"./**/*.js\" --ignore-path .gitignore --fix"
   },
   "lint-staged": {
