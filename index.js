@@ -6,6 +6,15 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/name', (req, res) => {
+  let name = req.query.name;
+  if (typeof name !== 'undefined' && name) {
+    res.send(`Hello ${name}!`);
+  } else {
+    res.send('Hello!');
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
